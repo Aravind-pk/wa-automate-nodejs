@@ -1,0 +1,11 @@
+---
+application:
+  name: "wa-automate-nodejs"
+  project: "ferbot"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-wa-automate-nodejs"
+  routes:
+  - application_name: "wa-automate-nodejs"
+    paths:
+    - "/*"
